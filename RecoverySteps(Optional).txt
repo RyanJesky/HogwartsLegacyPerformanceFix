@@ -1,0 +1,26 @@
+Follow the necessary steps labeled for the changes you applied from the ReadMe if you would like to revert them.
+
+(Removes SLPF mod)
+
+1. Replace "CChromaEditorLibrary64.dll" with original file you either renamed or backed up (Location: "Hogwarts Legacy\Phoenix\Plugins\ChromaSDKPlugin\Binaries\Win64\CChromaEditorLibrary64.dll")
+
+2. Delete the "Engine.ini" file. Booting up the game will recreate this file (Location: "Hogwarts Legacy\Saved\Config\WindowsNoEditor\Engine.ini")
+
+(Forced Fullscreen exclusive)
+
+1. Delete the "GameUserSettings.ini" file. Booting up the game will recreate this file (Location: "Hogwarts Legacy\Saved\Config\WindowsNoEditor\GameUserSettings.ini")
+
+(Re-enable full screen optimizations)
+
+1. Right Click "HogwartsLegacy.exe". Navigate to the Compatibility tab. Uncheck "Disable fullscreen optimizations" and click Apply. HogwartsLegacy.exe ("Hogwarts Legacy\Hogwarts Legacy.exe")
+
+(Downgrade DLSS to original version 2.3.11)
+
+1. You will need to download this from Nvidia. (Location: "Hogwarts Legacy\Engine\Plugins\Runtime\Nvidia\DLSS\Binaries\ThirdParty\Win64\nvngx_dlss\.dll")
+
+(Remove HogwartsLegagcy.exe from Nvidia control panel settings)
+
+1. Head to your GPU control panel -> Manage 3D Settings -> program
+settings -> remove Hogwarts Legacy
+
+(Stop starting Reduce Memory app to assure you are not reducing memory)
