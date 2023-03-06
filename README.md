@@ -1,5 +1,5 @@
 # HogwartsLegacyPerformanceFix
-Hogwarts Legacy currently has many technical issues causing degredaded performance and stuttering; especially if you want to use high end features such as Ray Tracing. I have created this guide with a list of optimizations that has greatly improved my performance using Ray Tracing and High settings. RTX 3080 + Ryzen 5800x.
+Hogwarts Legacy currently has many technical issues causing degraded performance and stuttering; especially if you want to use high end features such as Ray Tracing. I have created this guide with a list of optimizations that has greatly improved my performance using Ray Tracing and High settings. RTX 3080 + Ryzen 5800x.
 
 Disclaimer: There are several different issues to resolve with the game. So each one has its own unique impact on performance. This is not a one size fits all solution and I recommend using each step and determing which are necessary for your specific game performance; though the DLSS update is the exception and anyone looking to improve overall game performance should do it.
 
