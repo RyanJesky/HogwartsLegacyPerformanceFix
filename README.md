@@ -3,7 +3,18 @@ Hogwarts Legacy currently has many technical issues causing degraded performance
 
 Disclaimer: There are several different issues to resolve with the game. So each one has its own unique impact on performance. This is not a one size fits all solution and I recommend using each step and determing which are necessary for your specific game performance; though the DLSS update is the exception and anyone looking to improve overall game performance should do it.
 
-(Update DLSS Version - MOST IMPORTANT)
+(Ascendio II.I - FPS Hotfix and Engine Tweaks for Hogwarts Legacy - MOST IMPORTANT)
+This mod is the #1 way to increase your overall FPS performance and reduce stuttering. This mod makes performance and quality configurations to the Unreal Engine that is running the game. This mod is also very useful because it comes with a simple installer that will auto find your game .exe and apply the graphic changes. You can apply different level of graphic changes to prioritize performance or quality. Though I had to leave Ray Tracing disabled as this continues to cause massive stuttering and low FPS. With these settings, my game essentially went from unplayably stuttery, to smooth high FPS gameplay. When using the settings FPS HOTFIX 2.0 and Ascendio 1.0.3, I see a massive reduction in stuttering and FPS dips. It allows me to not need to sacrifice anything and get a free significant performance boost.
+
+Guide: 
+Run Installer.
+Choose FPS HOTFIX 2.0.
+Choose Ascendio 1.0.3.
+If your hardware is limited and you still have issues, rerun the installer and choose Ascendio Recommended. This may cause "potatoe" texture loading issues sometimes but you will see a big increase in FPS and a reduction in stuttering.
+
+URL: https://www.nexusmods.com/hogwartslegacy/mods/69?tab=description
+
+(Update DLSS Version)
 For some reason, the base game comes with a very outdated DLSS version 2.3.11 (Current version 3.1.1). Free performance with an DLSS version update:
 
 URL: https://www.techpowerup.com/download/nvidia-dlss-dll/
@@ -31,7 +42,3 @@ Guide: Disable V-Sync in-game. Navigate to your GPU control panel -> Manage 3D S
 
 (Forced Fullscreen Exclusive)
 Guide: Navigate to "AppData\Local\Hogwarts Legacy\Saved\Config\WindowsNoEditor" and open "GameUserSettings.ini" in NotePad. Locate these two parameters "FullscreenMode=1" and "LastConfirmedFullscreenMode=1" and set both to zero. Below both lines create a new line "PreferredFullscreenMode=0" without quotation marks, save the file. Set - Vsync: Fast in Nvidia controls settings for HogwartsLegacy.exe if you have not already. Right Click "HogwartsLegacy.exe". Navigate to the Compatibility tab. Check "Disable fullscreen optimizations" and click Apply. HogwartsLegacy.exe ("Hogwarts Legacy\Hogwarts Legacy.exe")
-
-(Possible Future Mods)
-
-Ascendio II.I - FPS Hotfix and Engine Tweaks for Hogwarts Legacy - https://www.nexusmods.com/hogwartslegacy/mods/69?tab=description
