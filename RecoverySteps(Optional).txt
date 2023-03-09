@@ -1,5 +1,9 @@
 Follow the necessary steps labeled for the changes you applied from the ReadMe if you would like to revert them.
 
+(Removes Ascendio II.I)
+
+1. Run Installer and select "UNINSTALL ASCENDIO 11.0".
+
 (Removes SLPF mod)
 
 1. Replace "CChromaEditorLibrary64.dll" with original file you either renamed or backed up (Location: "Hogwarts Legacy\Phoenix\Plugins\ChromaSDKPlugin\Binaries\Win64\CChromaEditorLibrary64.dll")
